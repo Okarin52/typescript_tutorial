@@ -40,17 +40,24 @@
         .button:hover {
             background-color: #0056b3;
         }
+        #fizzBuzzResults {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border: 1px solid #dee2e6;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>TypeScriptチュートリアル</h1>
         <div class="content">
-            <h2>ようこそ</h2>
-            <p>このページはTypeScriptの学習用に作成されました。</p>
-            <p>TypeScriptは、JavaScriptに静的型付けを追加したプログラミング言語です。</p>
-            <a href="#" class="button">始めましょう</a>
+            <h2>FizzBuzz デモ</h2>
+            <p>以下は1から100までのFizzBuzzの結果です：</p>
+            <div id="fizzBuzzResults"></div>
         </div>
     </div>
+    <script src="fizzbuzz.js"></script>
 </body>
 </html>
