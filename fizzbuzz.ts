@@ -12,7 +12,7 @@ function fizzBuzz(n: number): string[] {
 }
 
 function displayFizzBuzz(): void {
-    const results = fizzBuzz(200);
+    const results = fizzBuzz(2000);
     const resultDiv = document.getElementById('fizzBuzzResults');
     if (resultDiv) {
         resultDiv.innerHTML = results.join('<br>');
